@@ -69,10 +69,28 @@ h2 {
 	cursor: cell;
 }
 
-.wide.box{
-	float:right;
-	width:83vw;
-	transition: all .5s ease-out;
+@media (min-width: 800px) and (max-width: 2000px) { 
+	.wide.box{
+		float:left;
+		width:70vw;
+		transition: all .5s ease-out;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 800px) { 
+	.wide.box{
+		float:left;
+		width:80vw;
+		transition: all .5s ease-out;
+	}
+}
+
+@media (max-width: 400px) { 
+	.wide.box{
+		float:right;
+		width:83vw;
+		transition: all .5s ease-out;
+	}
 }
 
 @media (min-width: 400px) and (max-width: 2000px) { 
