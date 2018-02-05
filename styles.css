@@ -1,0 +1,98 @@
+.photograme {
+	float: left;
+    transform:rotate(90deg);
+    position:fixed;
+    bottom: 30vh;
+    left: -14vh;
+    cursor: cell;
+}
+
+h1 {
+	font-family: 'Chivo',sans-serif;
+	font-weight: 300;
+    font-size: 10vh;
+    letter-spacing: .5vh;
+    -webkit-user-select: none;
+}
+
+h2 {
+	font-family: 'Chivo',sans-serif;
+	font-weight: 300;
+	font-size: 5vh;
+}
+
+.menulogo {
+	line-height: 8vh;
+	position: fixed;
+	bottom:-3vh;
+	left:5.5vh;
+	cursor:crosshair;
+}
+
+.hidden {
+	opacity:0;
+	transition: all .5s ease-out;
+}
+
+.showing {
+	opacity:100;
+	transition: all .5s ease-out;
+}
+
+.content{
+	box-sizing: border-box;
+	position: absolute;
+	right:0px;
+	top:0px;
+	float: right;
+	cursor: crosshair;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	overflow: scroll;
+	transition: all .5s ease-out;
+}
+
+.content.box{
+	width:90vw;
+	transition: all .5s ease-out;
+}
+
+.content.unbox{
+	width:50vw;
+	transition: all .5s ease-out;
+}
+
+
+.me{
+	cursor: cell;
+}
+
+.wide.box{
+	float:right;
+	width: 90vw;
+	transition: all .5s ease-out;
+}
+
+.tall.box {
+	height:70vh;
+	float:right;
+	transition: all .5s ease-out;
+}
+
+.wide.unbox {
+	float:right;
+	width:250px;
+	transition: all .5s ease-out;
+}
+
+.tall.unbox {float:right;
+	height:250px;
+	transition: all .5s ease-out;
+
+}
+
+.folder {
+	padding:25px;
+}
