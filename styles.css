@@ -71,14 +71,24 @@ h2 {
 
 .wide.box{
 	float:right;
-	width: 90vw;
+	width:83vw;
 	transition: all .5s ease-out;
 }
 
-.tall.box {
-	height:70vh;
-	float:right;
-	transition: all .5s ease-out;
+@media (min-width: 400px) and (max-width: 2000px) { 
+	.tall.box {
+		height:95vh;
+		float:right;
+		transition: all .5s ease-out;
+	}
+}
+
+@media (max-width: 400px) { 
+	.tall.box {
+		height:70vh;
+		float:right;
+		transition: all .5s ease-out;
+	}
 }
 
 .wide.unbox {

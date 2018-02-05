@@ -18,37 +18,23 @@ $(document).ready(function(){
 //lightbox
 
 	$('.tall').click(function(){
+		console.log('tall clicked');
 		$(this).toggleClass('box');
 		$(this).toggleClass('unbox');
 	});
 
 	$('.wide').click(function(){
+		console.log('wide clicked');
 		$(this).toggleClass('box');
 		$(this).toggleClass('unbox');
 
 	});
 
-	$('.unbox.tall').click(function(){
-		console.log('unbox tall clicked');
+	$('.unbox').click(function(){
+		console.log('unbox clicked');
 		$('.content').addClass('box');
 		$('.content').removeClass('unbox');
 
 	});
-
-	$('.box.tall').click(function(){
-		console.log('unbox tall clicked');
-		$('.content').addClass('box');
-		$('.content').removeClass('unbox');
-
-	});
-
-	$('.unbox.wide').click(function(){
-		console.log('unbox wide clicked');
-		$('.content').removeClass('unbox');
-		$('.content').addClass('box');	
-
-	});
-
-	
 
 });
