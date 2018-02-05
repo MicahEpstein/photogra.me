@@ -80,7 +80,7 @@ h2 {
 @media (min-width: 400px) and (max-width: 800px) { 
 	.wide.box{
 		float:left;
-		width:80vw;
+		width:84vw;
 		transition: all .5s ease-out;
 	}
 }
