@@ -17,24 +17,17 @@ $(document).ready(function(){
 
 //lightbox
 
-	$('.tall').click(function(){
-		console.log('tall clicked');
+	$("img").click(function(){
+		console.log('img clicked');
 		$(this).toggleClass('box');
-		$(this).toggleClass('unbox');
 	});
 
-	$('.wide').click(function(){
-		console.log('wide clicked');
-		$(this).toggleClass('box');
-		$(this).toggleClass('unbox');
 
+	$('.content').click(function(){
+		console.log('toggle nav');
+		$(this).toggleClass('navhide');
 	});
 
-	$('.unbox').click(function(){
-		console.log('unbox clicked');
-		$('.content').addClass('box');
-		$('.content').removeClass('unbox');
 
-	});
 
 });

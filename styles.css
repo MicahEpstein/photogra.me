@@ -53,14 +53,8 @@ h2 {
 	overflow: scroll;
 	transition: all .5s ease-out;
 }
-
-.content.box{
-	width:90vw;
-	transition: all .5s ease-out;
-}
-
-.content.unbox{
-	width:50vw;
+.content{
+	width:70vw;
 	transition: all .5s ease-out;
 }
 
@@ -69,6 +63,25 @@ h2 {
 	cursor: cell;
 }
 
+
+/*wide box, desktop*/
+@media (min-width: 800px) and (max-width: 2000px) { 
+	.content.navhide{
+	width:90vw;
+	transition: all .5s ease-out;
+	}
+}
+
+/*content box, mobile*/
+@media (max-width: 400px) { 
+	.content.navhide{
+	width:350px;
+	transition: all .5s ease-out;
+	}
+}
+
+
+/*wide box, desktop*/
 @media (min-width: 800px) and (max-width: 2000px) { 
 	.wide.box{
 		float:left;
@@ -77,22 +90,25 @@ h2 {
 	}
 }
 
+/*wide box, ipad*/
 @media (min-width: 400px) and (max-width: 800px) { 
 	.wide.box{
 		float:left;
-		width:84vw;
+		width:80vw;
 		transition: all .5s ease-out;
 	}
 }
 
+/*wide box, mobile*/
 @media (max-width: 400px) { 
 	.wide.box{
 		float:right;
-		width:83vw;
+		width:325px;
 		transition: all .5s ease-out;
 	}
 }
 
+/*tall box, desktop*/
 @media (min-width: 400px) and (max-width: 2000px) { 
 	.tall.box {
 		height:95vh;
@@ -101,6 +117,7 @@ h2 {
 	}
 }
 
+/*tall box, mobile*/
 @media (max-width: 400px) { 
 	.tall.box {
 		height:70vh;
@@ -109,18 +126,19 @@ h2 {
 	}
 }
 
-.wide.unbox {
+.wide{
 	float:right;
-	width:250px;
+	width:225px;
 	transition: all .5s ease-out;
 }
 
-.tall.unbox {float:right;
-	height:250px;
+.tall{
+	float:right;
+	height:225px;
 	transition: all .5s ease-out;
 
 }
 
-.folder {
+img {
 	padding:25px;
 }
