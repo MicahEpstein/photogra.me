@@ -28,7 +28,6 @@ h1 {
 }
 
 h2 {
-	color:white;
 	font-family: 'Chivo',sans-serif;
 	font-weight: 300;
 	font-size: 5vh;
@@ -158,13 +157,12 @@ h2 {
 
 	h2 {
 	font-family: 'Chivo',sans-serif;
-	font-weight: 300;
-	font-size: 5vh;
 	cursor:cell;
+	line-height: 20vh;
 	}
 
 	.navTags {
-		right:5.5vh;
+		right:10vh;
 	}
 }
 
@@ -203,10 +201,9 @@ h2 {
 	img {margin:10px;}
 
 	h2 {
-	font-family: 'Chivo',sans-serif;
-	font-weight: 300;
-	font-size: 4vh;
+	font-size: 3.5vh;
 	cursor:cell;
+	line-height: 15vh;
 	}
 
 	.navTags {
