@@ -191,7 +191,7 @@ h2 {
 
 	.wide.box {
 		float:right;
-		width:48vh;
+		width:90vw;
 		transition: all 1s ease-in;
 	}
 
