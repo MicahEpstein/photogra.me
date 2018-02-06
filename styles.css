@@ -28,6 +28,7 @@ h1 {
 }
 
 h2 {
+	color:white;
 	font-family: 'Chivo',sans-serif;
 	font-weight: 300;
 	font-size: 5vh;
@@ -46,7 +47,6 @@ h2 {
 @media (min-width: 400px) and (max-width: 800px) { 
 	.breaker{
 	width:50vw;
-	transition: all 1s ease-in;
 	}
 }
 
@@ -155,6 +155,17 @@ h2 {
 	}
 
 	img {margin:25px;}
+
+	h2 {
+	font-family: 'Chivo',sans-serif;
+	font-weight: 300;
+	font-size: 5vh;
+	cursor:cell;
+	}
+
+	.navTags {
+		right:5.5vh;
+	}
 }
 
 
@@ -190,6 +201,17 @@ h2 {
 	}
 
 	img {margin:10px;}
+
+	h2 {
+	font-family: 'Chivo',sans-serif;
+	font-weight: 300;
+	font-size: 4vh;
+	cursor:cell;
+	}
+
+	.navTags {
+		right:3vh;
+	}
 }
 
 /*tablet*/
