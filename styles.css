@@ -115,6 +115,9 @@ h2 {
 	width:80vw;
 }
 
+
+
+
 /*desktop*/
 @media (min-width: 400px) and (max-width: 2000px) { 
 	.content{
@@ -193,7 +196,7 @@ h2 {
 	}
 
 	.tall.box {
-		height:80vh;
+		height:70vh;
 		float:right;
 		transition: all 1s ease-in;
 	}
