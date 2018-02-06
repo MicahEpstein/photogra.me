@@ -9,6 +9,7 @@ html{
     bottom: 30vh;
     left: -14vh;
     cursor: cell;
+    z-index: 30;
 }
 
 .hide{
