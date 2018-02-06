@@ -193,7 +193,7 @@ h2 {
 	}
 
 	.tall.box {
-		height:70vh;
+		height:80vh;
 		float:right;
 		transition: all 1s ease-in;
 	}
