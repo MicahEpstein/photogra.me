@@ -9,7 +9,7 @@ html{
     bottom: 30vh;
     left: -14vh;
     cursor: cell;
-    z-index: 30;
+    z-index: 0;
 }
 
 .hide{
@@ -60,7 +60,7 @@ h2 {
 	bottom:-3vh;
 	left:5.5vh;
 	cursor:crosshair;
-	z-index: 30;
+	z-index: 0;
 }
 
 .navTags {
