@@ -55,6 +55,16 @@ var scrollCount = 0;
 
 //navigation
 
+	$(".fashion").click(function(){
+		$('#fashionLocator').ScrollTo()
+		$("img").toggleClass('navblur');
+		$('.navTags').toggleClass('hide');
+		$('.name').addClass('hidden');
+		$('.name').removeClass('showing');
+		$('.photograme').toggleClass('blurNav');
+		$('.me').toggleClass('blurNav');
+	});
+
 	$(".cali").click(function(){
 		$('#caliLocator').ScrollTo()
 		$("img").toggleClass('navblur');
@@ -64,6 +74,7 @@ var scrollCount = 0;
 		$('.photograme').toggleClass('blurNav');
 		$('.me').toggleClass('blurNav');
 	});
+	
 
 	$(".tropic").click(function(){
 		$('#tropicLocator').ScrollTo()
